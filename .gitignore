@@ -20,3 +20,29 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+ class Data{
+   private int number;
+   private int date;
+   private String text;
+ public void say(){
+   System.out.println("miss match "+number+date+text)
+     }
+     public String Funcation(n){
+       if(n==2||n==2){
+       return loveone;
+       }else{
+       System.out .println("miss match beef");
+       n--;
+       return Funcation(n);
+       }
+     }
+ }
+ public classs meomory{
+  public static void main(String [] args){
+      new Date.say();
+      new Date.text="i remeber you"+"forever";
+      new Date.Funcation(10);
+      
+   
+   }
+ }
