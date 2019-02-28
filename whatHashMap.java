@@ -8,9 +8,10 @@ import java.util.UUID;
  * @Date: 2019/2/28 15:50
  * @Description:
  */
-public class whatF {
+public class whatHashMap {
 
-
+//使用线程操作hashmap 会导致CPU使用率增长到100% 
+    //应当注意。
 
     public  static void main (String[] args) throws InterruptedException {
         final int i=0;
