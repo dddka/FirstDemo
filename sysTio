@@ -1,0 +1,11 @@
+public class sysTio extends Thread {
+    public void run() {
+        System.out.println("Hello World");
+    }
+    public static void main(String[] args){
+        Thread mThread = new sysTio();
+        mThread.start();
+    }
+
+
+}
