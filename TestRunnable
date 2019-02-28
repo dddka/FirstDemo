@@ -1,0 +1,11 @@
+public class TestRunnable implements Runnable{
+    public void run() {
+        System.out.println("Hello11 World");
+    }
+
+    public static void main(String[] args) {
+        TestRunnable mTestRunnable = new TestRunnable();
+        Thread mThread = new Thread(mTestRunnable);
+        mThread.start();
+    }
+}
